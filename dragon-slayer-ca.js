@@ -11,3 +11,6 @@ while(slaying) {
         if (totalDamage >= 4){
             console.log("You win!");
             slaying = false;
+          }else{
+                youHit = Math.floor(Math.random() * 2);
+                }
